@@ -12,9 +12,9 @@ import {
 export function TextRevealCardPreview() {
     return (
         <div className="flex items-center justify-center bg-[#0E0E10] h-screen w-full">
-            <TextRevealCard text="<Full Stack Developer/>" revealText="Web 3 Enthusiast">
+            <TextRevealCard text="<Full Stack Developer/>" revealText="also a Web 3 Enthusiast">
                 <TextRevealCardTitle>
-                    Hai, Iam Sarath Kumar
+                    Hi, Iam Sarath Kumar
                 </TextRevealCardTitle>
                 <TextRevealCardDescription>
                     Iam a,
