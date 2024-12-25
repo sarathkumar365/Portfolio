@@ -87,10 +87,22 @@ export const TextRevealCard = ({
                         style={{
                             textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
                         }}
-                        className="text-base sm:text-[3rem] py-10 font-bold text-white bg-clip-text text-transparent
+                        className="text-base sm:text-[3rem] py-10 font-bold text-blue-600 bg-clip-text text-transparent
                          bg-gradient-to-b from-white to-neutral-300">
                         {revealText}
                     </p>
+
+                    {/* Gradient style  */}
+                    {/* <p
+                        style={{
+                            textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
+                        }}
+                        className="text-base sm:text-[3rem] py-10 font-bold bg-clip-text text-transparent
+               bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400"
+                    >
+                        {revealText}
+                    </p> */}
+
                 </motion.div>
                 <motion.div
                     animate={{

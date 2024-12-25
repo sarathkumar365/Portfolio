@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import { Boxes } from "../ui/background-boxes";  // Adjust path to Boxes component
-import { cn } from "../../lib/utils";  // Adjust path to utils
 
 import {
     TextRevealCard,

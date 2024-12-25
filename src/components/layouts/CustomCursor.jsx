@@ -1,4 +1,3 @@
-// src/components/CustomCursor.jsx
 "use client";
 
 import React, { useEffect, useState } from "react";
@@ -23,7 +22,8 @@ const CustomCursor = () => {
     return (
         <div className="fixed inset-0 pointer-events-none z-50">
             <motion.div
-                className="absolute w-9 h-12 rounded-full bg-gradient-to-b from-white to-neutral-300"
+                className="absolute w-9 h-12 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400"
+
                 style={{
                     transform: "translate(-50%, -50%)",
                 }}
@@ -36,7 +36,13 @@ const CustomCursor = () => {
                     damping: 19,
                     stiffness: 450,
                 }}
-            />
+            >
+                <img
+                    src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beaming%20Face%20with%20Smiling%20Eyes.png"
+                    alt="Beaming Face with Smiling Eyes"
+                    className="w-8 h-8"
+                />
+            </motion.div>
         </div>
     );
 };
